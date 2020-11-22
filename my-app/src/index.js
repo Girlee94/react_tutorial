@@ -1,22 +1,13 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-// import Form from './prac/form';
-// import Greeting from './prac/LoginControl';
-// import EssayForm from './prac/essayForm';
-// import FlavorForm from './prac/flaverform';
-// import Reservation from './prac/reservation';
-import Calculator from './prac/calculator';
+import ReactDom from 'react-dom';
+// import WelcomDialog from './prac/exComposition';
+// import './prac/css/exComposition.css';
+import Split from './prac/SplitPane';
+import './prac/css/Split.css'
 
 
-
-ReactDOM.render (
-  // <Map />,
-  // <Form />,
-  // <EssayForm />,
-  // <FlavorForm />,
-  // <Reservation />,
-  <Calculator />,
+ReactDom.render(
+  <Split />,
   document.getElementById('root')
 );
